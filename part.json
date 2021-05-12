@@ -1,20 +1,20 @@
 {
   "particles": {
     "number": {
-      "value": 50, 
-      "density": { 
+      "value": 50, //кол-во частиц
+      "density": { //плотность
         "enable": true,
-        "value_area": 1000 
+        "value_area": 1000 //чем ниже, тем кучнее
       }
     },
     "color": {
-      "value": "#9E9E9E" 
+      "value": "#9E9E9E" //цвет
     },
     "shape": {
-      "type": "triangle", 
+      "type": "triangle", //форма частиц
       "stroke": {
         "width": 0,
-        "color": "#9E9E9E" 
+        "color": "#9E9E9E" //цвет
       },
       "polygon": {
         "nb_sides": 5
@@ -26,33 +26,33 @@
       }
     },
     "opacity": {
-      "value": 0.5, 
-      "random": true, 
+      "value": 0.5, //прозрачность
+      "random": true, //рандомная прозрачность если true
       "anim": {
         "enable": false,
         "speed": 1, 
-        "opacity_min": 0.1, 
+        "opacity_min": 0.1, //минимальное значение
         "sync": false
       }
     },
     "size": {
-      "value": 10, 
-      "random": true, 
+      "value": 10, //размеры
+      "random": true, //рандом размера
       "anim": {
         "enable": false, 
-        "speed": 80,  
-        "size_min": 0.1, 
+        "speed": 80,  //скорость
+        "size_min": 0.1, //минимальный размер
         "sync": false
       }
     },
-    "line_linked": { 
+    "line_linked": { //линии между частиц
       "enable": true,
-      "distance": 300, 
-      "color": "#c5c5c5", 
-      "opacity": 0.4, 
-      "width": 2 
+      "distance": 300, //дистанция
+      "color": "#c5c5c5", //цвет
+      "opacity": 0.4, //прозрачность
+      "width": 2 //толщина
     },
-    "move": { 
+    "move": { //опции движения 
       "enable": true,
       "speed": 5,
       "direction": "none",
@@ -67,14 +67,14 @@
       }
     }
   },
-  "interactivity": { 
+  "interactivity": { //опции интерактивности
     "detect_on": "canvas",
     "events": { 
-      "onhover": {
+      "onhover": { //при наведении
         "enable": false,
         "mode": "repulse"
       },
-      "onclick": { 
+      "onclick": { //при клике
         "enable": true,
         "mode": "push"
       },
