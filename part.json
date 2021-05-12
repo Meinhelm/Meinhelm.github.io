@@ -1,14 +1,14 @@
 {
   "particles": {
     "number": {
-      "value": 50, //кол-во частиц
-      "density": { //плотность
+      "value": 50, 
+      "density": { 
         "enable": true,
-        "value_area": 1000 //чем ниже, тем кучнее
+        "value_area": 1000 
       }
     },
     "color": {
-      "value": "#9E9E9E" //цвет
+      "value": "#9E9E9E" 
     },
     "shape": {
       "type": "triangle", //форма частиц
