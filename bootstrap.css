@@ -65,7 +65,7 @@
 html {
   box-sizing: border-box;
   font-family: sans-serif;
-  line-height: 0;
+  line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
