@@ -39,8 +39,8 @@ body {
 .site-wrapper {
   display: table;
   width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
+  height: 0; /* For at least Firefox */
+  min-height: 0%;
 }
 .site-wrapper-inner {
   display: table-cell;
