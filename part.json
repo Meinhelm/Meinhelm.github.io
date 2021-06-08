@@ -19,12 +19,12 @@
       "polygon": {
         "nb_sides": 5
       },
-      "image1": {
+      "image": {
         "src": "img/github.svg",
         "width": 100,
         "height": 100
       },
-      "image": {
+      "image1": {
         "src": "img/number1.svg",
         "width": 100,
         "height": 100
