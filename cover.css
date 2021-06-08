@@ -56,7 +56,15 @@ body {
   padding: 30px;
 }
 
-
+#1
+{   
+    top: 90%;
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    background-size: 100%;
+    margin-left: 44%;
+}
 /*
  * Header
  */
